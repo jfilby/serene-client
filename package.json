@@ -1,7 +1,6 @@
 {
   "name": "@jasonfi/structura-client",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -36,5 +35,20 @@
   },
   "devDependencies": {
     "prisma": "^4.8.0"
-  }
+  },
+  "description": "Structura is a CMS built on NextJS.",
+  "main": "pages/_app.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfilby/structura-client.git"
+  },
+  "keywords": [
+    "cms"
+  ],
+  "author": "Jason Filby",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jfilby/structura-client/issues"
+  },
+  "homepage": "https://github.com/jfilby/structura-client#readme"
 }
